@@ -1,0 +1,27 @@
+/* style.css */
+
+/* نمط لزر الشراء في قسم الهيدر */
+.btn-warning {
+    /* اللون البرتقالي المستخدم في القالب */
+    background-color: #ff9800 !important;
+    border-color: #ff9800 !important;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e68900 !important;
+    border-color: #e68900 !important;
+}
+
+/* تعديل بسيط لنمط قسم الهيرو */
+.hero-section {
+    min-height: 80vh; /* لجعل القسم يأخذ مساحة جيدة من الشاشة */
+}
+
+/* نمط لصور المنتج الرئيسية لإضافة حواف مدورة وظل كما في الفيديو */
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* يمكنك إضافة المزيد من التنسيقات هنا */
